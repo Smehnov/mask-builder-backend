@@ -1,0 +1,15 @@
+{
+    "RandomTest" : {
+        "question" : {
+            "tag" : "question",
+            "texture" : "Textures/Question.png"
+        },
+        "answer" : {
+            "tag" : "answer",
+            "texture" : "Textures/Answer/Emoji.png",
+            "slow_down" : true,
+            "time" : 5.0
+        },
+        "trigger" : "tap+recording"
+    }
+}
