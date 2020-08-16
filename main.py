@@ -6,8 +6,23 @@ import os
 from os.path import basename
 from shutil import copyfile, copytree, make_archive
 from PIL import Image
+from fastapi.middleware.cors import CORSMiddleware
+
+origins = [
+    "https://vk.com",
+    "http://localhost",
+    "https://user217285500-4n45b3zw.wormhole.vk-apps.com",
+]
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 @app.post('/hello/')
