@@ -6,7 +6,7 @@
         },
         "answer" : {
             "tag" : "answer",
-            "texture" : "Textures/Answer/Emoji.png",
+            "texture" : "Textures/Answers/Answer.png",
             "slow_down" : true,
             "time" : 5.0
         },

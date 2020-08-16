@@ -22,7 +22,7 @@
             "tag" : "answer",
             "anchor" : "forehead",
             "texture" : {
-                "texture" : "Textures/Answer/Emoji.png",
+                "texture" : "Textures/Answers/Answer.png",
                 "auto_mirror" : true
             },
             "size" : [60, 60],
